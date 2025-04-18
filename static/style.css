@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  header {
+    background-image: linear-gradient(to right, #007bff, #00c6ff);
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #343a40; /* Cor de fundo escura (como no seu HTML) */
+    color: white;
+    text-align: center;
+    padding: 2px 0; /* Ajuste o espaçamento vertical conforme necessário */
+  }
+
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  
+  .card {
+    margin: 30px auto;
+    max-width: 900px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  }
+
+  #pizzaDespesas {
+    max-width: 300px;
+    max-height: 300px;
+    margin: auto;
+    display: block;
+  }
+
+  
